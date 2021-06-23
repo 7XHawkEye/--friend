@@ -1,0 +1,141 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<title>user login</title>
+</head>
+<body>
+	<div class="align">
+		<div class="logo">
+			<img src="/assets/e507af73-5387-4ffa-a806-9f8d0eb5ca66.jpg" alt="">
+		</div>
+		<div class="card">
+			<div class="head">
+				<div></div>
+				<a id="login" class="selected" href="#login">Login</a>
+				<a id="register" href="#register">Register</a>
+				<div></div>
+			</div>
+			<div class="tabs">
+				<form action="/signup" method="POST">
+					<div class="inputs">
+						<div class="input">
+							<input placeholder="Nickname Taak" type="text">
+							<img src="/assets/user.svg">
+						</div>
+						<div class="input">
+							<input placeholder="Lihh Re Naay Baghat" type="password">
+							<img src="/assets/pass.svg">
+						</div>
+						<label class="checkbox">
+							<input type="checkbox">
+							<span>Thevu Ka Majhakade?</span>
+						</label>
+					</div>
+					<button>Login</button>
+					<form action="/signup" method="POST">
+					<div class="inputs">
+						<div class="input">
+							<input  type="text" name="name" placeholder ="Email Formality Saathi" id="name" required></input>
+							<img src="/assets/mail.svg">
+						</div>
+						<div class="input">
+							<input  type="text" name="email" placeholder="Nickname Taak" id="Email" required></input>
+							<img src="/assets/user.svg">
+						</div>
+						<div class="input">
+							<input  type="text" name="password" placeholder="Lihh Re Naay Baghat" type="password"  id="Password" required></input>
+							<img src="/assets/pass.svg">
+						</div>
+					</div>
+					<button>Register</button>
+					
+
+				</form>
+				
+
+				
+				
+					
+
+
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>User Login/Register</title>
+</head>
+<body>
+	<div class="align">
+		<div class="logo">
+			<img src="/assets/e507af73-5387-4ffa-a806-9f8d0eb5ca66.jpg" alt="">
+		</div>
+		<div class="card">
+			<div class="head">
+				<div></div>
+				<a id="register" class="selected" href="#register">Register</a>
+				<a id="login"  href="#login">Login</a>
+				
+				<div></div>
+			</div>
+			<div class="tabs">
+				
+				<form
+					 action="/signup" method="POST">
+					<div class="inputs">
+						<div class="input">
+							<input name="email" placeholder="Email Formality Saathi" type="Email">
+							<img src="/assets/mail.svg">
+						</div>
+						<div class="input">
+							<input name="name" placeholder="Nickname Taak" type="nickname">
+							<img src="/assets/user.svg">
+						</div>
+						<div class="input">
+							<input name="password" placeholder="Lihh Re Naay Baghat" type="password">
+							<img src="/assets/pass.svg">
+						</div>
+					</div>
+					<button type="submit">Register</button>
+
+				</form>
+				<form
+					 action="/signin" method="POST">
+					<div class="inputs">
+						<div class="input">
+							<input name="email" placeholder="Nickname Taak" type="text">
+							<img src="/assets/user.svg">
+						</div>
+						<div class="input">
+							<input name="password" placeholder="Lihh Re Naay Baghat" type="password">
+							<img src="/assets/pass.svg">
+						</div>
+						<label class="checkbox">
+							<input type="checkbox">
+							<span>Thevu Ka Majhakade?</span>
+						</label>
+					</div>
+					<button>Login</button>
+				
+					
+			</div>
+		</div>
+	</div>
+	<script src="/assets/jquery-3.3.1.min.js"></script> 
+	 <script src="/assets/final.js"></script>
+</body>
+</html>
